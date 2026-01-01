@@ -725,6 +725,114 @@
           "label": "Rectified Current",
           "name": "Rectified Current",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Strike Gundam",
+          "name": "Strike Gundam",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Switch Height",
+          "name": "Switch Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Switch Length",
+          "name": "Switch Length",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Force",
+          "name": "Operating Force",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Switch Width",
+          "name": "Switch Width",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mechanical Life",
+          "name": "Mechanical Life",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Actuator/Cap Color",
+          "name": "Actuator/Cap Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Style",
+          "name": "Mounting Style",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Actuator Style",
+          "name": "Actuator Style",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Circuit",
+          "name": "Circuit",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Insulation Resistance",
+          "name": "Insulation Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rating (Dc)",
+          "name": "Voltage Rating (Dc)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "With Lamp",
+          "name": "With Lamp",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pin Style",
+          "name": "Pin Style",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Contact Current",
+          "name": "Contact Current",
+          "show": false
         }
       ],
       "filter_string": "",

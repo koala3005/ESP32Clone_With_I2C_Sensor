@@ -1593,145 +1593,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "INDUCTER-JLC-Extended:SRP4020TA-4R7M"
 			(pin_names
 				(offset 1.016)
@@ -11127,12 +10988,6 @@
 		(uuid "a2a2a632-1bfe-4182-ad8a-321e72f3fb54")
 	)
 	(junction
-		(at 45.72 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0301c04e-c48a-4098-bad1-90a535a727ee")
-	)
-	(junction
 		(at 123.19 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11149,12 +11004,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13784988-f19e-418c-951c-19080d49ba54")
-	)
-	(junction
-		(at 45.72 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a010417-9b4a-4d0e-b2a0-89a7fd89dd56")
 	)
 	(junction
 		(at 128.27 67.31)
@@ -11199,12 +11048,6 @@
 		(uuid "50294a30-5a00-4b9a-9b43-42690527b687")
 	)
 	(junction
-		(at 71.12 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56bda64d-090d-46ea-a156-1c5fdd445d61")
-	)
-	(junction
 		(at 165.1 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11233,6 +11076,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bada1a7-e032-462e-8f28-d35fa2265648")
+	)
+	(junction
+		(at 44.45 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84d4c630-19c0-47b9-bf35-d9cf57999cd6")
 	)
 	(junction
 		(at 93.98 36.83)
@@ -11313,6 +11162,12 @@
 		(uuid "c747cd67-3bca-48ce-9072-746605418390")
 	)
 	(junction
+		(at 71.12 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb03f6ac-fba7-41f3-b29b-12bf1fe590dd")
+	)
+	(junction
 		(at 30.48 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11353,6 +11208,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb3f06fd-42ba-4042-b9c7-4ff8110789bc")
+	)
+	(junction
+		(at 44.45 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f044e18c-a4f7-4b67-bef4-215b92a01890")
 	)
 	(junction
 		(at 92.71 167.64)
@@ -11806,17 +11667,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 24.13) (xy 60.96 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65a2384e-9188-4393-b47f-f50695130211")
-	)
-	(wire
-		(pts
-			(xy 86.36 24.13) (xy 71.12 24.13)
+			(xy 60.96 24.13) (xy 71.12 24.13)
 		)
 		(stroke
 			(width 0)
@@ -11866,16 +11717,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 24.13) (xy 45.72 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7001cbb7-440d-4ccc-80b2-0a90ba5348ed")
-	)
-	(wire
-		(pts
 			(xy 123.19 27.94) (xy 123.19 30.48)
 		)
 		(stroke
@@ -11896,7 +11737,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 24.13) (xy 45.72 24.13)
+			(xy 30.48 24.13) (xy 44.45 24.13)
 		)
 		(stroke
 			(width 0)
@@ -12156,6 +11997,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 34.29) (xy 45.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c41ee0-67b8-4dd2-b42c-e37ef2498817")
+	)
+	(wire
+		(pts
 			(xy 71.12 33.02) (xy 71.12 36.83)
 		)
 		(stroke
@@ -12203,16 +12054,6 @@
 			(type default)
 		)
 		(uuid "a9e27228-1391-4c6e-9978-dc01d247054f")
-	)
-	(wire
-		(pts
-			(xy 45.72 24.13) (xy 53.34 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab376dd2-4fd5-427b-9de7-7dda46b3128a")
 	)
 	(wire
 		(pts
@@ -12376,7 +12217,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 34.29) (xy 45.72 34.29)
+			(xy 41.91 34.29) (xy 44.45 34.29)
 		)
 		(stroke
 			(width 0)
@@ -12506,6 +12347,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 31.75) (xy 44.45 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc2ee2e-3c7c-4a18-808c-e7f381431f58")
+	)
+	(wire
+		(pts
 			(xy 31.75 116.84) (xy 31.75 107.95)
 		)
 		(stroke
@@ -12523,6 +12374,16 @@
 			(type default)
 		)
 		(uuid "e0efdf56-8a33-4817-b932-0956baaa5f88")
+	)
+	(wire
+		(pts
+			(xy 44.45 24.13) (xy 53.34 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f754c2-a661-446a-ae37-e6a49d29159e")
 	)
 	(wire
 		(pts
@@ -12623,6 +12484,16 @@
 			(type default)
 		)
 		(uuid "f21d8ce5-97e6-47c1-a8ca-ff05f23b085b")
+	)
+	(wire
+		(pts
+			(xy 71.12 24.13) (xy 86.36 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22f0ded-b70a-4be3-aeba-f9ebedd1f9fc")
 	)
 	(wire
 		(pts
@@ -13946,7 +13817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 22.86 124.46 0)
 			(effects
 				(font
@@ -13955,7 +13826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/CST-CS_1109_1X8_L11_5PA6T/C18213722"
 			(at 22.86 124.46 0)
 			(effects
 				(font
@@ -14042,7 +13913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/ROHMSemicon-BH1750FVITR/C78960"
 			(at 143.51 72.39 0)
 			(effects
 				(font
@@ -14645,7 +14516,7 @@
 		(dnp no)
 		(uuid "39a6407e-c2a6-4afa-82fb-deecb2991499")
 		(property "Reference" "L2"
-			(at 49.53 29.21 90)
+			(at 49.53 30.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14653,7 +14524,7 @@
 			)
 		)
 		(property "Value" "2.2uH,50mA"
-			(at 39.624 31.242 90)
+			(at 49.53 32.766 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16529,7 +16400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/MicrochipTech-24LC1025_ISM/C84770"
 			(at 205.74 39.37 0)
 			(effects
 				(font
@@ -16881,7 +16752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BOURNS-SRP4020TA4R7M/C2041623"
 			(at 111.76 162.56 0)
 			(effects
 				(font
@@ -17391,6 +17262,398 @@
 			(project ""
 				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(at 60.96 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "760292ab-6aeb-46e8-9ad5-5f09159a2b4b")
+		(property "Reference" "C7"
+			(at 63.5 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 63.5 30.48 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 59.182 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "70324515"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.006USD"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CC0603KRX7R9BB104"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 60.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07c020ef-550f-4b86-bc38-a7a00828ce72")
+		)
+		(pin "1"
+			(uuid "b67058dd-178d-43ce-b301-72f8ab5c8aa2")
+		)
+		(instances
+			(project ""
+				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(at 71.12 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ab86de-0f08-4abe-b100-fc0ef9227446")
+		(property "Reference" "C11"
+			(at 73.66 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 69.342 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "70324515"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.006USD"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CC0603KRX7R9BB104"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 73.66 30.48 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a214874e-a091-468a-9f79-1b78718b6395")
+		)
+		(pin "2"
+			(uuid "420bc680-3fd8-46b8-9a58-e3ef20b03bf2")
+		)
+		(instances
+			(project ""
+				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -19029,75 +19292,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 45.72 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91576594-3e2c-47f7-b7e1-e5b28bb9f887")
-		(property "Reference" "C8"
-			(at 38.1 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0,1 uF, 25V"
-			(at 49.022 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.6852 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 45.72 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fab77771-2b45-4567-892e-374911d38d34")
-		)
-		(pin "2"
-			(uuid "7f5de04d-9601-4822-a4ed-9e38ad3eee27")
-		)
-		(instances
-			(project ""
-				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0805,22uF")
 		(at 54.61 162.56 90)
 		(unit 1)
@@ -19316,7 +19510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 60.96 124.46 0)
 			(effects
 				(font
@@ -19325,7 +19519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/CST-CS_1109_1X8_L11_5PA6T/C18213722"
 			(at 60.96 124.46 0)
 			(effects
 				(font
@@ -21277,76 +21471,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 71.12 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d665397c-6840-4083-8d6a-8744348f32a5")
-		(property "Reference" "C11"
-			(at 74.93 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0,1uF, 25V"
-			(at 74.93 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.0852 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 71.12 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8982418-86c0-4eb0-a89e-4d7d166d69f3")
-		)
-		(pin "2"
-			(uuid "0f0c5a4b-1bfe-4c28-8400-022f1d5f8d85")
-		)
-		(instances
-			(project "ESP32Clone"
-				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Inductors:10nH,300mA")
 		(at 27.94 86.36 90)
 		(unit 1)
@@ -21818,7 +21942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-MAL214699103E3/C5158069"
 			(at 113.03 172.72 0)
 			(effects
 				(font
@@ -22248,7 +22372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Aosong_Guangzhou_Elec-AHT20/C2757850"
 			(at 142.24 33.02 0)
 			(effects
 				(font
@@ -22408,6 +22532,201 @@
 			(project ""
 				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
+		(at 44.45 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0776025-e13c-4e21-94e1-c283fe35b7b8")
+		(property "Reference" "C8"
+			(at 39.116 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 38.862 27.94 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0603"
+			(at 42.672 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "70324515"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.006USD"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "CC0603KRX7R9BB104"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 39.624 29.972 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 44.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4c78297-1bd9-4909-bad3-75caa31aab39")
+		)
+		(pin "1"
+			(uuid "5d5e277f-dd41-46ee-a880-7bc64cc5a983")
+		)
+		(instances
+			(project ""
+				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -23365,76 +23684,6 @@
 			(project ""
 				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 60.96 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "feb1041d-f7a0-4a5a-baba-2180946952d5")
-		(property "Reference" "C7"
-			(at 64.77 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0,1uF, 25V"
-			(at 64.77 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 61.9252 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 60.96 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "baac63de-afd3-4085-b9ea-2a4aa499b010")
-		)
-		(pin "2"
-			(uuid "37809a33-63df-418b-8790-7f8a6a95bd19")
-		)
-		(instances
-			(project ""
-				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
-					(reference "C7")
 					(unit 1)
 				)
 			)
