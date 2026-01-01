@@ -11066,6 +11066,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "56e44af4-c44a-4f54-986f-ce841c932af4")
