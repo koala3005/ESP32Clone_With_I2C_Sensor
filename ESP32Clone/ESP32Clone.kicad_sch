@@ -942,13 +942,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1500 Hrs @ 125°C"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -963,6 +962,16 @@
 				)
 			)
 			(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=285948"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" "100µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1500 Hrs @ 125°C"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10997,34 +11006,22 @@
 		(uuid "07fbb7a1-0e2a-4c1f-8968-2eb1bd81fbc8")
 	)
 	(junction
+		(at 113.03 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10fb186c-0afa-4ee8-bc97-8845d12f255e")
+	)
+	(junction
 		(at 86.36 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13784988-f19e-418c-951c-19080d49ba54")
 	)
 	(junction
-		(at 36.83 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17b8ddd8-f14a-4868-8ac8-c5846d2cce01")
-	)
-	(junction
 		(at 128.27 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c7bbd31-6c44-46d5-9796-d65461a5d904")
-	)
-	(junction
-		(at 113.03 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fee54be-505b-4c07-99f8-0a62ba531372")
-	)
-	(junction
-		(at 36.83 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2833194c-f836-4c51-92e8-3a9a921ff9c8")
 	)
 	(junction
 		(at 16.51 59.69)
@@ -11099,12 +11096,6 @@
 		(uuid "70461c4a-5039-4dda-80fc-a04a4fc95918")
 	)
 	(junction
-		(at 36.83 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7846dcac-32c0-476e-adec-2e96776cccdb")
-	)
-	(junction
 		(at 99.06 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11117,7 +11108,7 @@
 		(uuid "824fcc3b-4ef6-449b-b4af-dcff56366220")
 	)
 	(junction
-		(at 44.45 34.29)
+		(at 33.02 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84d4c630-19c0-47b9-bf35-d9cf57999cd6")
@@ -11141,7 +11132,7 @@
 		(uuid "8eeb2276-9236-477e-8932-7f49ee05b83d")
 	)
 	(junction
-		(at 41.91 34.29)
+		(at 30.48 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b26db6b-617e-4fb9-b85a-a2dcc902673c")
@@ -11157,6 +11148,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae7599eb-ecf4-47a4-9784-7092ba1b4a4e")
+	)
+	(junction
+		(at 38.1 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1022d96-c6de-404c-b632-9699e56b4364")
 	)
 	(junction
 		(at 124.46 167.64)
@@ -11237,7 +11234,7 @@
 		(uuid "ecf0d080-35b7-4f20-92fe-14749b3ba8ec")
 	)
 	(junction
-		(at 44.45 24.13)
+		(at 33.02 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f044e18c-a4f7-4b67-bef4-215b92a01890")
@@ -11310,16 +11307,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 72.39) (xy 40.64 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01b493af-235f-4ea6-aae3-5150fdce0e59")
-	)
-	(wire
-		(pts
 			(xy 24.13 190.5) (xy 24.13 187.96)
 		)
 		(stroke
@@ -11380,7 +11367,17 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 74.93) (xy 40.64 74.93)
+			(xy 113.03 167.64) (xy 124.46 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d8da6ca-6510-43da-b853-5596f9b8bed6")
+	)
+	(wire
+		(pts
+			(xy 36.83 74.93) (xy 38.1 74.93)
 		)
 		(stroke
 			(width 0)
@@ -11410,16 +11407,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 69.85) (xy 36.83 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29347231-bb27-47c5-9f73-ac21df561558")
-	)
-	(wire
-		(pts
 			(xy 119.38 30.48) (xy 127 30.48)
 		)
 		(stroke
@@ -11430,7 +11417,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 167.64) (xy 124.46 167.64)
+			(xy 107.95 167.64) (xy 113.03 167.64)
 		)
 		(stroke
 			(width 0)
@@ -11527,16 +11514,6 @@
 			(type default)
 		)
 		(uuid "4c515910-1e98-4ee7-afbd-79d7eff3534d")
-	)
-	(wire
-		(pts
-			(xy 36.83 69.85) (xy 40.64 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e03785f-5d05-435c-a0c9-75e401fb2da0")
 	)
 	(wire
 		(pts
@@ -11640,6 +11617,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 69.85) (xy 40.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67de15a8-9f25-490d-a98c-dd4917f0053b")
+	)
+	(wire
+		(pts
 			(xy 187.96 31.75) (xy 184.15 31.75)
 		)
 		(stroke
@@ -11680,6 +11667,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 74.93) (xy 40.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d16ba5d-6c76-45b7-9c9a-034267755384")
+	)
+	(wire
+		(pts
 			(xy 19.05 39.37) (xy 27.94 39.37)
 		)
 		(stroke
@@ -11690,7 +11687,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 24.13) (xy 44.45 24.13)
+			(xy 19.05 24.13) (xy 33.02 24.13)
 		)
 		(stroke
 			(width 0)
@@ -11730,7 +11727,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 34.29) (xy 41.91 34.29)
+			(xy 26.67 34.29) (xy 30.48 34.29)
 		)
 		(stroke
 			(width 0)
@@ -11780,7 +11777,17 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 34.29) (xy 30.48 24.13)
+			(xy 38.1 67.31) (xy 38.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875855e1-e23c-4419-995a-f052c9b1c4be")
+	)
+	(wire
+		(pts
+			(xy 19.05 34.29) (xy 19.05 24.13)
 		)
 		(stroke
 			(width 0)
@@ -11807,16 +11814,6 @@
 			(type default)
 		)
 		(uuid "88d4f44c-be20-4598-8d0b-8ab1c18ecccc")
-	)
-	(wire
-		(pts
-			(xy 36.83 74.93) (xy 36.83 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88e5b9fe-fef0-4628-93a8-ab8c7e3ef895")
 	)
 	(wire
 		(pts
@@ -11950,7 +11947,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 34.29) (xy 45.72 34.29)
+			(xy 33.02 34.29) (xy 34.29 34.29)
 		)
 		(stroke
 			(width 0)
@@ -12070,16 +12067,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 72.39) (xy 36.83 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b80cff31-d775-4993-9865-03b23d1736fc")
-	)
-	(wire
-		(pts
 			(xy 16.51 80.01) (xy 16.51 86.36)
 		)
 		(stroke
@@ -12180,7 +12167,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 34.29) (xy 44.45 34.29)
+			(xy 30.48 34.29) (xy 33.02 34.29)
 		)
 		(stroke
 			(width 0)
@@ -12250,6 +12237,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 72.39) (xy 40.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64e62d6-94fd-4154-89ea-e9aeea58514d")
+	)
+	(wire
+		(pts
 			(xy 165.1 27.94) (xy 166.37 27.94)
 		)
 		(stroke
@@ -12280,7 +12277,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 67.31) (xy 36.83 67.31)
+			(xy 29.21 67.31) (xy 38.1 67.31)
 		)
 		(stroke
 			(width 0)
@@ -12300,7 +12297,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 31.75) (xy 44.45 34.29)
+			(xy 33.02 31.75) (xy 33.02 34.29)
 		)
 		(stroke
 			(width 0)
@@ -12330,7 +12327,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 24.13) (xy 53.34 24.13)
+			(xy 33.02 24.13) (xy 53.34 24.13)
 		)
 		(stroke
 			(width 0)
@@ -12340,7 +12337,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 34.29) (xy 41.91 38.1)
+			(xy 30.48 34.29) (xy 30.48 36.83)
 		)
 		(stroke
 			(width 0)
@@ -12400,6 +12397,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 34.29) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec80b73b-e05a-4681-ae54-9ed1b21b6625")
+	)
+	(wire
+		(pts
 			(xy 165.1 35.56) (xy 165.1 38.1)
 		)
 		(stroke
@@ -12417,16 +12424,6 @@
 			(type default)
 		)
 		(uuid "ee7b5d4d-b7fa-424c-b8a6-5f895b0bef6e")
-	)
-	(wire
-		(pts
-			(xy 107.95 167.64) (xy 113.03 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f184d216-b569-4ff0-a50a-fa4a59898e3d")
 	)
 	(wire
 		(pts
@@ -12649,7 +12646,7 @@
 		(uuid "4a86f2b5-23eb-418f-95a2-711d236dd4cf")
 	)
 	(label "3.3V"
-		(at 41.91 38.1 180)
+		(at 30.48 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15800,7 +15797,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,10uF,(2)")
-		(at 34.29 34.29 90)
+		(at 22.86 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15809,7 +15806,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d673a9d-defd-4073-a7ce-19a1988f3c5d")
 		(property "Reference" "C10"
-			(at 34.29 25.4 90)
+			(at 22.86 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15817,7 +15814,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 34.29 27.94 90)
+			(at 22.86 27.94 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15825,7 +15822,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 34.29 36.068 90)
+			(at 22.86 36.068 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15834,7 +15831,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106MA8NRNC_C96446.pdf"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15843,7 +15840,7 @@
 			)
 		)
 		(property "Description" "25V 10uF X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15852,7 +15849,7 @@
 			)
 		)
 		(property "LCSC" "C96446"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15861,7 +15858,7 @@
 			)
 		)
 		(property "Stock" "3388297"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15870,7 +15867,7 @@
 			)
 		)
 		(property "Price" "0.021USD"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15879,7 +15876,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15888,7 +15885,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15897,7 +15894,7 @@
 			)
 		)
 		(property "Attrition Qty" "8"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15906,7 +15903,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15915,7 +15912,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15924,7 +15921,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15933,7 +15930,7 @@
 			)
 		)
 		(property "Part" "CL10A106MA8NRNC"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15942,7 +15939,7 @@
 			)
 		)
 		(property "Voltage Rated" "25V"
-			(at 34.29 30.48 90)
+			(at 22.86 30.48 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15950,7 +15947,7 @@
 			)
 		)
 		(property "Tolerance" "±20%"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15959,7 +15956,7 @@
 			)
 		)
 		(property "Capacitance" "10uF"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15968,7 +15965,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 34.29 34.29 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,6 +16185,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 45.72 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50f5ddae-3195-4786-9021-e23566123aac")
+		(property "Reference" "L5"
+			(at 45.72 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nH, 25V"
+			(at 46.99 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:L_0603"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1379-VHF160808H1N0ST/C1027"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 45.72 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e940f0b-b1a7-4262-be0d-e02b9ade4315")
+		)
+		(pin "2"
+			(uuid "9a54fce3-8a5e-4335-b236-d101c879dbde")
+		)
+		(instances
+			(project ""
+				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 16.51 59.69 180)
 		(unit 1)
@@ -16247,73 +16311,6 @@
 			(project ""
 				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 49.53 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "536eb577-859d-483f-8e7d-7964e041fb4e")
-		(property "Reference" "L2"
-			(at 49.53 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2mH, 50V"
-			(at 51.816 32.512 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 49.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07befba3-0fc3-4ff7-b1e6-bb41287e5a5d")
-		)
-		(pin "2"
-			(uuid "bcf6bdda-a656-4c08-82d6-6f2758bb6321")
-		)
-		(instances
-			(project ""
-				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -17177,6 +17174,73 @@
 			(project ""
 				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 38.1 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "614cb38e-b364-4aa6-b421-c82048055dd8")
+		(property "Reference" "L2"
+			(at 38.1 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1nH, 25V"
+			(at 37.846 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:L_0603"
+			(at 38.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1379-VHF160808H1N0ST/C1027"
+			(at 38.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 38.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "539ff436-caf4-46fa-bc74-6acc0bdff683")
+		)
+		(pin "2"
+			(uuid "9c498d14-2d14-4009-a94b-39e1b23540fd")
+		)
+		(instances
+			(project ""
+				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -21176,6 +21240,217 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitor-100uf-25V:MAL214699103E3")
+		(at 113.03 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4513102-9528-46e3-b432-a018b52032f0")
+		(property "Reference" "C6"
+			(at 116.84 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF, 25V"
+			(at 116.84 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MAL214699103E3:CAPAE1050X1050N"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=285948"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "100µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1500 Hrs @ 125°C"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "Radial Vishay BC"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Radial Vishay BC"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MAL214699103E3/Vishay/view-part/?ref=eda"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAL214699103E3/Vishay/view-part/?ref=snap"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MAL214699103E3"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY-PURCHASE-URL" "https://snapeda.com/shop?store=DigiKey&id=285948"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Good"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "100uF 50V ALUM Electrolytic Cap 1010,146 CTI Series 1000 h,1500 h,150000 h | Vishay Dale MAL214699103E3"
+			(at 113.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11b75fba-0789-4e99-b95f-c7fb00b3f9ca")
+		)
+		(pin "2"
+			(uuid "082338b8-db9f-435b-9215-19a765e23f40")
+		)
+		(instances
+			(project ""
+				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:Schottky,B5818WS")
 		(at 104.14 153.67 0)
 		(unit 1)
@@ -22368,217 +22643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor-100uf-25V:MAL214699103E3")
-		(at 113.03 172.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd54761a-c01b-4afe-a441-c257b73c84dc")
-		(property "Reference" "C6"
-			(at 116.84 170.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uf, 25V"
-			(at 116.84 172.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "JLCPCBExtended:CAPAE1050X1050N"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=285948"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "100µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 1500 Hrs @ 125°C"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "Radial Vishay BC"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Radial Vishay BC"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MAL214699103E3/Vishay/view-part/?ref=eda"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAL214699103E3/Vishay/view-part/?ref=snap"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MAL214699103E3"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DIGIKEY-PURCHASE-URL" "https://snapeda.com/shop?store=DigiKey&id=285948"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Good"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "100uF 50V ALUM Electrolytic Cap 1010,146 CTI Series 1000 h,1500 h,150000 h | Vishay Dale MAL214699103E3"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f772175-997c-4b3e-8244-f89bff54c443")
-		)
-		(pin "2"
-			(uuid "712cca89-2a21-449a-949a-b1fcc40ebbe9")
-		)
-		(instances
-			(project ""
-				(path "/dd1e1a69-fb6d-4ec9-9346-c5821cbac777"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0805,22Ω")
 		(at 36.83 54.61 90)
 		(unit 1)
@@ -23002,7 +23066,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0603,100nF")
-		(at 44.45 27.94 0)
+		(at 33.02 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23010,7 +23074,7 @@
 		(dnp no)
 		(uuid "e0776025-e13c-4e21-94e1-c283fe35b7b8")
 		(property "Reference" "C8"
-			(at 39.116 25.654 0)
+			(at 27.686 25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23019,7 +23083,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 38.862 27.94 0)
+			(at 27.432 27.94 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23028,7 +23092,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0603"
-			(at 42.672 27.94 90)
+			(at 31.242 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23037,7 +23101,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23046,7 +23110,7 @@
 			)
 		)
 		(property "Description" "50V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23055,7 +23119,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23064,7 +23128,7 @@
 			)
 		)
 		(property "Stock" "70324515"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23073,7 +23137,7 @@
 			)
 		)
 		(property "Price" "0.006USD"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23082,7 +23146,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23091,7 +23155,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23100,7 +23164,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23109,7 +23173,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23118,7 +23182,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23127,7 +23191,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23136,7 +23200,7 @@
 			)
 		)
 		(property "Part" "CC0603KRX7R9BB104"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23145,7 +23209,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 39.624 29.972 0)
+			(at 28.194 29.972 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -23154,7 +23218,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23163,7 +23227,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23172,7 +23236,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 44.45 27.94 0)
+			(at 33.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
