@@ -10901,6 +10901,12 @@
 		(uuid "b49e512c-a0c8-4de0-8d65-aeca44a6e54e")
 	)
 	(junction
+		(at 93.98 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b54f205f-e78a-4fde-859c-e600ceadae0d")
+	)
+	(junction
 		(at 88.9 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11552,6 +11558,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 156.21) (xy 93.98 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822005ea-00a6-4297-bedd-2048e30da264")
+	)
+	(wire
+		(pts
 			(xy 53.34 31.75) (xy 53.34 34.29)
 		)
 		(stroke
@@ -11592,7 +11608,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 162.56) (xy 88.9 162.56)
+			(xy 99.06 162.56) (xy 93.98 162.56)
 		)
 		(stroke
 			(width 0)
@@ -12099,6 +12115,16 @@
 			(type default)
 		)
 		(uuid "dc6ac6b2-ce34-4d19-885a-3be5a54da0ed")
+	)
+	(wire
+		(pts
+			(xy 93.98 162.56) (xy 88.9 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8a2bea-0445-4935-befc-7db5644e089c")
 	)
 	(wire
 		(pts
@@ -12629,6 +12655,16 @@
 			(justify left bottom)
 		)
 		(uuid "7f2f328c-150c-483b-a691-4879db2ddadf")
+	)
+	(label "PRE3.3V"
+		(at 93.98 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7f72fabf-5807-48ba-8cd5-327cc5eaeb95")
 	)
 	(label "GPIO 5"
 		(at 86.36 54.61 0)
